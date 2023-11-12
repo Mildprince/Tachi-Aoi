@@ -1,0 +1,740 @@
+
+@font-face {
+  font-family: 'Hiragino Kaku Gothic Std W8';
+  src: url('Hiragino Kaku Gothic Std W8.otf') format('opentype');
+  /* Add additional src formats if necessary */
+  font-weight: normal;
+  font-style: normal;
+}
+
+button{
+  background-color: transparent;
+  border: none;
+  margin: 0;
+  padding: 0;
+  text-align: inherit;
+  font: inherit;
+  border-radius: 0;
+  appearance: none;
+  color:#6F2A81;
+}
+
+
+a { 
+  color: inherit;
+  text-decoration: none;
+} 
+body{
+  margin:auto;
+  height: auto;
+  width: 100%;
+}
+footer{
+  height: auto;
+  width: 100%;
+}
+
+header {
+    background-color: #FFF;
+    margin: 0 0;
+  }
+
+
+
+/* Navigation Bar*/
+.nav{
+  width:auto;
+  height: 95px;
+  text-align: center;
+  display: flex;
+}
+
+/* Navigation Bar Styling */
+.nav2{
+  margin: auto;
+  height: 100%;
+  display: flex;
+}
+.list{
+  margin: auto;
+  height: 95px;
+  line-height: 60px;
+}
+
+.list li{
+ display: inline;
+ color:#6F2A81;
+ padding: 0 1em;
+}
+
+.logo{
+  margin:auto;
+}
+
+.logo img{
+  width: 14rem;
+  height: auto;
+  align-items: center;
+}
+
+.nav3{
+  float: right;
+  display: inline;
+  color:#6F2A81; 
+  margin: auto 0;
+  position: relative;
+  right: 10%;
+}
+
+  /*body content*/
+
+  .infobar{
+    width: 100%;
+    height: 78px;
+    background-color: #8B4799;
+    color: white;
+    font-size: 1.25em;
+    display: flex;
+  }
+
+  .infobar p {
+    margin: auto;
+    
+  }
+  .parent{
+    margin: 0;
+    Padding: 0;
+    
+    height: 21.5rem;
+    display: flex;
+
+  }
+
+  /*image*/
+
+  .skyline {
+    background-image: url("../Images/Kyoto.png");
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+  }
+  
+  .skyline h1{
+    color: #fff;
+    font-size: 8rem;
+  }
+
+  
+/* Section 1 */
+.section1{
+  width: auto;
+  height: 421px;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+
+.content {
+  width: 50%;
+  margin: auto;
+}
+
+#heading{
+  font-size: 36px;
+  color:#6F2A81;
+}
+
+.text{
+  width: 362px;
+  
+  margin:auto;
+}
+
+
+#button{
+  background-color: #6F2A81; 
+border: none;
+color: white;
+padding: .125rem 1.5rem;
+text-align: center;
+text-decoration: none;
+display: inline-flex;
+margin: 2rem 0;
+
+}
+
+
+.office_girl{
+  float: right;
+  height: 421px;
+  width: 50%;
+  background-image: url(../Images/istockphoto-1330249622-612x612\ 1.png);
+  background-size: cover;
+  
+  
+}
+
+/* section 2*/
+.section2{
+  width: 100%;
+  height: 421px;
+  background-color: #8B4799;
+  display: flex;
+}
+
+.office_girl2{
+  position:absolute;
+  float: left;
+  height: 421px;
+  width: 50%;
+  background-image: url(../Images/sakuraco_japanese-woman-business-suit\ 1.png);
+  background-size: cover;
+  
+}
+
+.content2 {
+  width: 50%;
+  margin: auto;
+  float: right;
+  position:absolute;
+  right:0;
+
+}
+
+#heading2{
+  font-size: 36px;
+  color:#fff;
+}
+
+.text2{
+  width: 362px;
+  color: #FFF;
+  margin:auto;
+ 
+}
+
+
+#button2{
+background-color: #fff; 
+border: none;
+color: #000;
+padding: .125rem 1.5rem;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+margin: 2rem 0;
+
+}
+/* programs section*/
+
+.programs{
+  height: Auto;
+  width: 100%;
+  background-color: #6F2A81;
+  text-align: center;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 7rem;
+  
+
+}
+
+.heading3{
+  color: white;
+  font-size: 36px;
+  align-items: center;
+  justify-content: space-around;
+  margin: 5rem;
+}
+.progcont{
+  width: 81.25rem;
+  height: auto;
+  margin:auto;
+  
+}
+
+/* first program */
+
+
+.program1{
+  width: auto;
+  height: 18rem;
+  margin: auto;
+  margin-bottom: 1rem;
+  padding: 0 1.25rem 6rem 0;
+  float: left;
+
+}
+
+.text3{
+  float: left;
+  height: auto;
+  margin: auto;
+}
+
+.purple{
+  width: 14.125rem;
+  height: 17.625rem;
+  float: Left;
+  margin: 0 2rem 0 0;
+  background-image: url(../Images/Purple_Girl1.png);
+  background-size: cover;
+}
+
+.program1 p {
+  color: white;
+  text-align: left;
+}
+
+#heading3{
+  font-size: 2rem;
+  margin: 0;
+}
+
+.button3{
+  width: 8rem;
+  height: auto;
+  background-color: #fff; 
+  border: none;
+  color: #6F2A81;
+  border-radius: 25px;
+  padding: .75rem 0;
+  text-align: center;
+  text-decoration: none;
+  margin:0;
+  
+}
+
+/* 2nd Program */
+
+.program2{
+  width: auto;
+  height: 18rem;
+  margin: auto;
+  padding: 0 0 6rem 1.25rem;
+  float: right;
+
+  
+  }
+
+.text4{
+  float: left;
+  height: auto;
+  margin: auto;
+  }
+
+.purple2{
+  width: 14.125rem;
+  height: 17.625rem;
+  float: Left;
+  margin: 0 2rem 0 0;
+  background-image: url(../Images/3_Office_Girls.png);
+  background-size: cover;
+}
+
+.program2 p {
+  color: white;
+  text-align: left;
+}
+
+#heading4{
+  font-size: 2rem;
+  margin: 0;
+}
+
+.button4{
+  width: 8rem;
+  height: auto;
+  background-color: #fff; 
+  border: none;
+  color: #6F2A81;
+  border-radius: 25px;
+  padding: .75rem 0;
+  text-align: center;
+  text-decoration: none;
+  margin:0;
+  
+}
+
+/* footer content*/
+
+footer {
+  height: 152px;
+  width: 100%;
+  background-color: #8B4799;
+  
+}
+
+.address {
+  float: left;
+  color:#FFF;
+  font-size: .75em;
+  padding:0 1.25em 0 1.25em;
+}
+
+.socials{
+  float: right;
+  height: 10px;
+  width: auto;
+  padding: .75em;
+  margin: 1.25em;
+  position:relative;
+  top: 4em;
+}
+.socials img{
+  width: 33px;
+  margin: .125rem;
+}
+
+@media screen and (max-width: 1500px) {
+
+  .nav3{
+    float: right;
+    display: inline;
+    color:#6F2A81; 
+    margin: auto 0;
+    position: relative;
+    right: 2%;
+  }
+  h1{
+    font-size: 16px;
+  }
+  .programs{
+    height: Auto;
+    width: 100%;
+    background-color: #6F2A81;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 7rem;
+    flex-wrap: wrap;
+  }
+  /* first program */
+
+  .program1{
+    width: 100%;
+    height: 18rem;
+ 
+    margin-bottom: 5rem;
+    display: flex;
+    background-position: center;
+    justify-content: center;
+   
+  }
+
+  .position{
+    width: auto;
+
+  }
+  
+  .text3{
+    
+    height: auto;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .purple{
+    width: 14.125rem;
+    height: 17.625rem;
+    
+    margin: 0 2rem 0 0;
+    background-image: url(../Images/Purple_Girl1.png);
+    background-size: cover;
+    
+  }
+  
+  #heading3{
+    font-size: 2rem;
+    margin: 0;
+  }
+  
+  
+  /* 2nd Program */
+  
+  .program2{
+    width: 100%;
+    height: 18rem;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+  
+  .text4{
+    float: left;
+    height: auto;
+    margin: auto;
+    }
+  
+  .purple2{
+    width: 14.125rem;
+    height: 17.625rem;
+    float: Left;
+    margin: 0 2rem 0 0;
+    background-image: url(../Images/3_Office_Girls.png);
+    background-size: cover;
+  }
+  
+  
+  #heading4{
+    font-size: 2rem;
+    margin: 0;
+  }
+  
+ 
+}
+
+@media screen and (max-width: 950px) {
+  strong{
+    font-size: 20px;
+  }
+  p{
+    font-size: 16px;
+  }
+  .logo img{
+    width: 7rem;
+    height: auto;
+    align-items: center;
+  }
+  
+  
+}
+
+
+@media screen and (max-width: 1080px) {
+  strong{
+    font-size: 20px;
+  }
+  p{
+    font-size: 16px;
+  }
+  
+  .logo img{
+    width: 7rem;
+    height: auto;
+    align-items: center;
+  }
+
+
+}
+
+@media screen and (max-width: 700px) {
+ 
+
+  .nav{
+    width:auto;
+    height: auto;
+    text-align: center;
+    display: flex;
+    font-size: .5rem;
+    
+  }
+
+  .list li{
+    display: inline;
+    color:#6F2A81;
+    padding: 0 1em;
+   }
+
+   .nav3{
+    float: right;
+    display: inline;
+    color:#6F2A81; 
+    margin: auto 0;
+    position: relative;
+    right: 2%;
+  }
+
+  .logo img{
+    width: 7rem;
+    height: auto;
+    align-items: center;
+  }
+
+  .skyline h1{
+    color: #fff;
+    font-size: 6rem;
+  }
+  strong{
+    font-size: 20px;
+  }
+  p{
+    font-size: 10px;
+  }
+
+  .logo{
+    margin:auto;
+  }
+  /* section 1 */
+  .section1{
+    width: auto;
+    height: 421px;
+    display: block;
+    flex-wrap: wrap;
+  
+  }
+  
+  .text{
+    width: 100%;
+    text-align: center;
+    margin:auto;
+    font-size: 10px;
+  }
+  
+  .office_girl{
+    
+    height: 421px;
+    width: 100%;
+    background-image: url(../Images/istockphoto-1330249622-612x612\ 1.png);
+    background-size: cover;
+  }
+
+  /* section 2 */
+  .section2{
+    width: 100%;
+    height: 800px;
+    background-color: #8B4799;
+    display: block;
+   
+  }
+  
+  .office_girl2{
+    
+    position: relative;
+    height: 421px;
+    width: 100%;
+    background-image: url(../Images/sakuraco_japanese-woman-business-suit\ 1.png);
+    background-size: cover;
+    
+  }
+  
+  .content2 {
+    width: 100%;
+    margin: auto;
+    position: relative;
+    text-align: center;
+  }
+  /* first program */
+
+  .program1{
+    width: 100%;
+    height: auto;
+    margin: auto;
+ 
+    margin-bottom: 1rem;
+    display: block;
+    background-position: center;
+    justify-content: center;
+   
+  }
+
+  .position{
+    width: auto;
+
+  }
+  
+  .text3{
+    
+    height: auto;
+    margin: 0 0 0 3rem;
+    text-align: center;
+  }
+  
+  .purple{
+    width: 14.125rem;
+    height: 17.625rem;
+    margin: 0 1rem 0 3rem;
+    background-image: url(../Images/Purple_Girl1.png);
+    background-size: cover;
+    
+  }
+  
+  #heading3{
+    font-size: 2rem;
+    margin: 0;
+  }
+  
+  
+  /* 2nd Program */
+  
+  .program2{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    padding-left: 2rem;
+  
+    }
+  
+  .text4{
+    float: left;
+    height: auto;
+    
+    margin: 0 0 0 3rem;
+    
+    }
+  
+  .purple2{
+    width: 14.125rem;
+    height: 17.625rem;
+    margin: 0 1rem 0 3rem;
+    background-image: url(../Images/3_Office_Girls.png);
+    background-size: cover;
+  }
+  
+  
+  #heading4{
+    font-size: 2rem;
+    margin: 0;
+  }
+
+  #japaneseContent{
+    font-size: 6px;
+  }
+
+  footer {
+    height: 100px;
+    width: auto;
+    background-color: #8B4799;
+    padding: .25rem;
+    font-size: 2px;
+    
+  }
+
+  footer p {
+    font-size: 6px;
+    
+  }
+  .socials img{
+    width: 22px;
+    margin: .125rem;
+  }
+  .address {
+    float: left;
+    color:#FFF;
+    font-size: .75em;
+    padding:2em 1.25em 0 1.25em;
+    align-items: center;
+  }
+
+
+ 
+  
+}
+
+
+
+
+  
+  
+  
+  
+  

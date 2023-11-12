@@ -1,0 +1,367 @@
+@font-face {
+  font-family: 'Hiragino Kaku Gothic Std W8';
+  src: url('Hiragino Kaku Gothic Std W8.otf') format('opentype');
+  /* Add additional src formats if necessary */
+  font-weight: normal;
+  font-style: normal;
+}
+
+#japaneseContent2{
+font-size: 14px;
+}
+
+button{
+background-color: transparent;
+border: none;
+margin: 0;
+padding: 0;
+text-align: inherit;
+font: inherit;
+border-radius: 0;
+appearance: none;
+color: #6F2A81;
+}
+
+a { 
+color: inherit;
+text-decoration: none;
+} 
+
+header {
+  background-color: #FFF;
+  margin: 0 0;
+}
+
+body {
+  background-color: #FFF;
+  margin: 0 auto;
+}
+
+/* Navigation Bar*/
+.nav{
+  width:auto;
+  height: 95px;
+  text-align: center;
+  display: flex;
+}
+
+/* Navigation Bar Styling */
+.nav2{
+  margin: auto;
+  height: 100%;
+  display: flex;
+}
+
+.list{
+  margin: auto;
+  height: 95px;
+  line-height: 60px;
+}
+
+.list li{
+ display: inline;
+ color:#6F2A81;
+ padding: 0 1em;
+}
+
+.logo{
+  margin:auto;
+}
+
+.logo img{
+  width: 14rem;
+  height: auto;
+  align-items: center;
+}
+
+.nav3{
+  float: right;
+  display: inline;
+  color:#6F2A81; 
+  margin: auto 0;
+  position: relative;
+  right: 10%;
+}
+
+/*body content*/
+.body {
+  background-image: url("/Images/Flower_BG\ copy.png");
+  height: auto;
+  background-size: cover;
+}
+
+.BG{
+  position: absolute;
+  right: 0;
+  z-index: -1px;
+  top: 30%;
+  margin: 0;
+  height: auto;
+  width: auto;
+
+}
+
+.about{
+  height: 38rem;
+  width: 51rem;
+  display: flex;
+  margin: auto;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.box{
+
+  width: 23rem;
+  height: 23rem;
+  margin: auto;
+  background-color: #6F2A81;
+  display: flex;
+  
+  
+}
+
+.text {
+  height: auto;
+  width: auto;
+  color:#FFF;
+  margin: auto;
+
+  font-size: .25rem;
+  }
+
+  #japaneseContent2{
+    padding: 1rem;
+  }
+
+  .text  h1{
+    
+    font-size: 16px;
+    }
+
+.image{
+  width: 23rem;
+  height: 23rem;
+  margin: auto;
+  flex-wrap: wrap;
+ 
+}
+
+.image img{
+  width: 23rem;
+  height: 23rem;
+}
+/* section 2 */
+
+.text2 {
+  text-align: center;
+  margin-bottom: 8rem;
+  width: 100%;
+  
+}
+
+
+
+.text2 h1{
+  color: #6F2A81;
+}
+
+/* section 3 */
+
+.text3 {
+  text-align: center;
+}
+
+.text3 h1{
+  color: #6F2A81;
+}
+
+/*section 4 */
+
+.team{
+  text-align: center;
+  width: 100%;
+  height:auto;
+}
+
+.team h1{
+  color: #6F2A81;
+  margin: 5rem;
+}
+
+.team h3{
+  color: #6F2A81;
+}
+
+.photos{
+  display:flex;
+  flex-wrap: wrap;
+  margin: auto;
+  justify-content: center;
+
+}
+
+.photos img{
+  width: 12rem;
+  height: 12rem;
+  border-radius: 50%;
+}
+
+#photo1{
+  margin: 0 4rem 9rem;
+}
+
+
+
+
+/* footer content*/
+  footer {
+    height: 152px;
+    width: 100%;
+    background-color: #fff;
+    
+  }
+  
+  .address {
+    float: left;
+    color:#000;
+    font-size: .75em;
+    padding:0 1.25em 0 1.25em;
+  }
+  
+  .socials{
+    float: right;
+    height: 10px;
+    width: auto;
+    padding: .75em;
+    margin: 1.25em;
+    position:relative;
+    top: 4em;
+  }
+  .socials img{
+    width: 33px;
+    margin: .125rem;
+  }
+
+  @media screen and (max-width: 1500px) {
+    *{
+      font-size: 14px;
+    }
+
+    .nav3{
+      float: right;
+      display: inline;
+      color:#6F2A81; 
+      margin: auto 0;
+      position: relative;
+      right: 2%;
+    }
+    h1{
+      font-size: 16px;
+    }
+    .programs{
+      height: Auto;
+      width: 100%;
+      background-color: #6F2A81;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-bottom: 7rem;
+      flex-wrap: wrap;
+    }
+
+    .BG{
+      position: absolute;
+      right: 0;
+      z-index: -1px;
+      top: 30%;
+      margin: 0;
+     
+      
+    
+    }
+    
+  }
+  
+  @media screen and (max-width: 950px) {
+    *{
+      font-size: 12px;
+    }
+    .BG{
+      position: absolute;
+      right: 0;
+      z-index: -1px;
+      top: 50%;
+      margin: 0;
+      height: 70%;
+      width: auto;
+      
+    
+    }
+  
+   
+    
+  }
+
+  @media screen and (max-width: 700px) {
+    *{
+      font-size: 8px;
+    }
+    #japaneseContent2{
+      font-size: 6px;
+    }
+
+    .nav{
+      width:auto;
+      height: auto;
+      text-align: center;
+      display: flex;
+      font-size: .5rem;
+      
+    }
+  
+    .list li{
+      display: inline;
+      color:#6F2A81;
+      padding: 0 1em;
+     }
+  
+     .nav3{
+      float: right;
+      display: inline;
+      color:#6F2A81; 
+      margin: auto 0;
+      position: relative;
+      right: 2%;
+    }
+
+    footer {
+      height: 100px;
+      width: auto;
+      background-color: #fff;
+      padding: .5rem;
+      font-size: 2px;
+    
+      
+    }
+  
+    footer p {
+      font-size: 6px;
+      
+    }
+    .socials img{
+      width: 22px;
+      margin: .125rem;
+    }
+
+    .address {
+      float: left;
+      color:#000;
+      font-size: .75em;
+      padding:2em 1.25em 0 1.25em;
+    }
+
+    
+    
+  }
