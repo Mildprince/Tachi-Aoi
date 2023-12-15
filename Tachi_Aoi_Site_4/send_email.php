@@ -16,12 +16,14 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         echo "All fields are required.";
     } else {
         // Configure email settings
+	if (empty($message)) {
+		$message = $japaneseMessage;
+	}
         $to = 'marcmelodesign@gmail.com'; // Replace with your email address
         $subject = 'Contact Form Submission from ' . $name;
-        $headers = 'From: ' . $email;
 
         // Send the email
-        if (mail($to, $subject, $message, $headers)) {
+        if (mail($to, $subject, $message)) {
             echo "Email sent successfully.";
         } else {
             echo "Email sending failed. Please try again later.";
